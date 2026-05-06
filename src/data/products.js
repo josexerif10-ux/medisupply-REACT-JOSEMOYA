@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: "atlas",
+    nombre: "Atlas de Anatomía",
+    categoria: "libros",
+    precio: 120,
+    imagen: "/src/assets/img/libroanatomia.jfif",
+    descripcion: "Libro de referencia para estudiantes de ciencias de la salud.",
+  },
+  {
+    id: "fisica",
+    nombre: "Física médica",
+    categoria: "libros",
+    precio: 120,
+    imagen: "/src/assets/img/fisica.jfif",
+    descripcion: "Libro fundamental para la formación técnica sanitaria.",
+  },
+  {
+    id: "croc-morado",
+    nombre: "Crocs en morado",
+    categoria: "crocs",
+    precio: 29.9,
+    imagen: "/src/assets/img/croc morado.png",
+    descripcion: "Comodidad y estilo para profesionales sanitarios.",
+  },
+  {
+    id: "gorro",
+    nombre: "Gorro quirúrgico",
+    categoria: "accesorios",
+    precio: 12,
+    imagen: "/src/assets/img/operando.jfif",
+    descripcion: "Ideal para quirófano o prácticas hospitalarias.",
+  },
+  {
+    id: "fisiologia",
+    nombre: "Fisiología médica",
+    categoria: "libros",
+    precio: 120,
+    imagen: "/src/assets/img/fisiology.jfif",
+    descripcion: "Libro imprescindible para dominar los conceptos básicos.",
+  },
+  {
+    id: "crocs-blancas",
+    nombre: "Crocs blancas con pins",
+    categoria: "crocs",
+    precio: 29.9,
+    imagen: "/src/assets/img/rojo.png",
+    descripcion: "Incluye pins sanitarios intercambiables.",
+  },
+  {
+    id: "funko-enfermera",
+    nombre: "Funko enfermera",
+    categoria: "funkos",
+    precio: 10,
+    imagen: "/src/assets/img/FUNKO.jfif",
+    descripcion: "Figura coleccionable edición sanitaria.",
+  },
+  {
+    id: "fonendo",
+    nombre: "Fonendoscopio profesional",
+    categoria: "fonendos",
+    precio: 65,
+    imagen: "/src/assets/img/FONENDO.jfif",
+    descripcion: "Acústica nítida para exploraciones precisas.",
+  },
+];
+
+export default products;
